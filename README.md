@@ -22,7 +22,7 @@ A Python project combining a simple Streamlit UI, agent orchestration code, and 
   - Pinecone ingestion script present (scripts/ingest_sop_pinecone.py) — indicates vector database integration for semantic search.
   - A system prompt exists at src/prompts/system_prompt.txt — indicates LLM-agent usage for orchestration.
 - Dependency list: requirements.txt (use this to install exact packages).
-
+- Ensure PINECONE_API_KEY is present in your active .env profile.
 ---
 
 ## How it's organized
